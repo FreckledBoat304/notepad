@@ -1,2 +1,2 @@
 # Notepad
-Simple Text Editor, V 1.94.
+Simple text editor, v1.94
