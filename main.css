@@ -1,0 +1,107 @@
+#mainframe{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+#testframe{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#testiframe{
+	position:absolute;
+	top:40px;
+	left:0px;
+	height:calc(100% - 40px);
+	width:100%;
+	outline:none;
+	border:none;
+}
+
+#titlebar{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	font-size:24pt;
+	text-align:center;
+	outline:none;
+	border:none;
+}
+
+#main{
+	outline:none;
+	border:none;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	resize:none;
+	white-space:nowrap;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:calc(100% - 40px);
+	width:calc(100% - 100px);
+	font-family:monospace;
+	font-size:16pt;
+}
+
+#openfilebtn{
+	position:absolute;
+	top:40px;
+	right:0px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	border-top:1px solid black;
+}
+
+#savefilebtn{
+	position:absolute;
+	top:60px;
+	right:0px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	border-top:1px solid black;
+}
+
+#clearbtn{
+	position:absolute;
+	top:80px;
+	right:0px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	border-top:1px solid black;
+}
+
+#clearbtn:hover, #savefilebtn:hover, #openfilebtn:hover, #testbtn:hover{
+	cursor:pointer;
+}
+
+#testbtn{
+	position:absolute;
+	top:100px;
+	right:0px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+#backbtn{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:40px;
+	width:40px;
+}
