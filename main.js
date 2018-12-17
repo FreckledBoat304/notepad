@@ -2,6 +2,8 @@ window.onload = function(){
 
 	focusEl("main");
 
+	window.addEventListener("beforeunload", function(e){e.preventDefault();});
+	
 	getEl("main").addEventListener("keydown", function(e){
 
 		var key = e.keyCode;
