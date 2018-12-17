@@ -2,7 +2,7 @@ window.onload = function(){
 
 	focusEl("main");
 
-	window.addEventListener("beforeunload", function(e){e.preventDefault();});
+	window.addEventListener("beforeunload", function(e){e.preventDefault();return "";});
 	
 	getEl("main").addEventListener("keydown", function(e){
 
